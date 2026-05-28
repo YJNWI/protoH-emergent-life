@@ -3,7 +3,7 @@ Artificial-life experiment where protohumans start without concepts, learn throu
 Created by **YJNWI**.  
 Licensed under the **Apache License 2.0**.
 
---
+---
 
 ## Recommended GitHub tagline
 
