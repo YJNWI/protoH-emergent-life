@@ -7,17 +7,17 @@ Licensed under the **Apache License 2.0**.
 
 ## Recommended GitHub tagline
 
-> **Artificial-life experiment where protohumans start without concepts and may develop functional ideas of refuge, danger, death and auto-life through experience.**
+> **Artificial-life experiment where protohumans start without concepts and a detector tracks learned ideas like refuge, danger, death and auto-life, aiming to explore whether one can develop a functional proto-belief of being alive.**
 
 ---
 
 ## License
 
-This project is distributed under the **BSD 3-Clause License**.
+This project is distributed under the **Apache License 2.0**.
 
-Copyright (c) 2026, **YJNWI**.
+Copyright 2026 **YJNWI**.
 
-That license allows people to:
+The Apache License 2.0 allows people to:
 
 - use the project;
 - study it;
@@ -28,11 +28,15 @@ That license allows people to:
 - use it commercially;
 - sell modified or unmodified copies;
 
-but they must keep the copyright notice and license text, and they cannot use the name **YJNWI** to endorse or promote derived products without written permission.
+as long as they comply with the terms of the license.
+
+In practice, this means that derived or redistributed versions must keep the license and attribution notices. If the project includes a `NOTICE` file, the relevant attribution notices from that file must also be preserved in distributions or derivative works as required by the Apache License 2.0.
 
 In plain English:
 
 > You can modify, sell and share this project, but you cannot erase the original credit to **YJNWI**.
+
+This project also includes a `NOTICE` file stating that `protoH` was originally created by **YJNWI**.
 
 See the `LICENSE` file for the full legal text.
 
@@ -2355,7 +2359,7 @@ protoH-zero-knowledge-life-simulation
 Recommended description:
 
 ```text
-Artificial-life experiment where protohumans start without concepts and may develop functional ideas of refuge, danger, death and auto-life through experience.
+Artificial-life experiment where protohumans start without concepts and a detector tracks learned ideas like refuge, danger, death and auto-life, aiming to explore whether one can develop a functional proto-belief of being alive.
 ```
 
 Recommended topics:
@@ -2381,6 +2385,7 @@ protoH-emergent-life/
 ├── README.md
 ├── README_ES.md
 ├── LICENSE
+├── NOTICE
 └── .gitignore
 ```
 
@@ -2401,7 +2406,7 @@ protoH-emergent-life
 4. Description:
 
 ```text
-Artificial-life experiment where protohumans start without concepts and may develop functional ideas of refuge, danger, death and auto-life through experience.
+Artificial-life experiment where protohumans start without concepts and a detector tracks learned ideas like refuge, danger, death and auto-life, aiming to explore whether one can develop a functional proto-belief of being alive.
 ```
 
 5. Choose **Public**.
@@ -2420,6 +2425,7 @@ protoH.py
 README.md
 README_ES.md
 LICENSE
+NOTICE
 .gitignore
 ```
 
@@ -2437,7 +2443,7 @@ Initial release of protoH emergent life experiment
 cd /path/to/protoH-emergent-life
 
 git init
-git add protoH.py README.md README_ES.md LICENSE .gitignore
+git add protoH.py README.md README_ES.md LICENSE NOTICE .gitignore
 git commit -m "Initial release of protoH emergent life experiment"
 git branch -M main
 git remote add origin https://github.com/YOUR_USER/protoH-emergent-life.git
